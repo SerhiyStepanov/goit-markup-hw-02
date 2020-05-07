@@ -11,6 +11,12 @@
 body {
   background-color: var(--background-first);
 }
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
 /* оформление header */
 /* лого */
 .logo {
@@ -19,13 +25,12 @@ body {
 .top-studio {
   color: var(--title-text-color);
 }
-/* навигация header */
-.list {
-  list-style: none;
-}
-.link {
+.logo,
+.top-studio {
   text-decoration: none;
 }
+/* навигация header */
+
 .site-nav .link {
   color: var(--title-text-color);
 }
