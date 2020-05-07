@@ -11,21 +11,28 @@
 body {
   background-color: var(--background-first);
   font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
 }
+
 .list {
   list-style: none;
 }
 .link {
   text-decoration: none;
 }
+
 /* оформление header */
 /* лого */
+
 .logo {
   color: var(--acent-color);
 }
+
 .top-studio {
   color: var(--title-text-color);
 }
+
 .logo,
 .top-studio {
   font-family: "Raleway", sans-serif;
@@ -34,7 +41,8 @@ body {
   line-height: 1.2;
   text-decoration: none;
 }
-/* навигация header */
+
+/* навигация header  */
 
 .site-nav .link {
   font-weight: 500;
@@ -43,11 +51,14 @@ body {
   letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
+
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--acent-color);
 }
+
 /* контакты header */
+
 .auth-nav .link {
   font-weight: 500;
   font-size: 14px;
@@ -55,12 +66,15 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-text-coor);
 }
+
 .auth-nav .link:hover,
 .auth-nav .link:focus {
   color: var(--acent-color);
 }
 
-/* HERO */
+/* СТУДИЯ */
+/*  HERO  */
+
 .hero h1 {
   font-weight: 900;
   font-size: 44px;
@@ -78,4 +92,23 @@ body {
   letter-spacing: 0.06em;
   color: #fff;
   text-decoration: none;
+}
+
+/* цвета для title и text */
+
+.section-title {
+  color: var(--title-text-color);
+}
+.section-text {
+  color: var(--primary-text-coor);
+}
+
+/* секция детали */
+
+.detail .section-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
