@@ -19,8 +19,18 @@ body {
 .list {
   list-style: none;
 }
+
 .link {
   text-decoration: none;
+}
+/* цвета для title и text */
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+.section-text {
+  color: var(--primary-text-coor);
 }
 
 /* оформление header */
@@ -101,15 +111,6 @@ body {
   color: var(--primary-white-color);
 }
 
-/* цвета для title и text */
-
-.section-title {
-  color: var(--title-text-color);
-}
-.section-text {
-  color: var(--primary-text-coor);
-}
-
 /* секция детали */
 
 .section-detail .section-title {
@@ -152,6 +153,7 @@ body {
 }
 
 /* секция наша команда */
+
 .section-team .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -206,6 +208,8 @@ body {
 
 /* -----  футер  ------ */
 
+/*  футер  логотип */
+
 .page-footer .logo {
   font-weight: 700;
   font-size: 22px;
@@ -236,6 +240,8 @@ body {
   color: var(--primary-white-color);
 }
 
+/*     футер соцсети  */
+
 .page-footer .social {
   background: rgba(255, 255, 255, 0.1);
   color: var(--primary-white-color);
@@ -253,3 +259,5 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.4);
 }
+
+/* футер  button  */
