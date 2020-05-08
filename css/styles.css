@@ -261,3 +261,20 @@ body {
 }
 
 /* футер  button  */
+
+/*   портфолио  фильтр */
+
+.work .filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  background-color: var(--background-second);
+  color: var(--title-text-color);
+}
+
+.work .filter:hover,
+.work .filter:focus {
+  background-color: var(--acent-color);
+  color: var(--primary-white-color);
+}
