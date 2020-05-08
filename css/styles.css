@@ -262,9 +262,31 @@ body {
 
 /* футер  button  */
 
+.button-primary {
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: var(--primary-footer-color);
+}
+
+.button-secondary {
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+  background-color: var(--acent-color);
+}
+
 /*   портфолио  фильтр */
 
-.work .filter {
+.section-portfolio .filter {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -273,8 +295,28 @@ body {
   color: var(--title-text-color);
 }
 
-.work .filter:hover,
-.work .filter:focus {
+.section-portfolio .filter:hover,
+.section-portfolio .filter:focus {
   background-color: var(--acent-color);
+  color: var(--primary-white-color);
+}
+
+.section-portfolio .section-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.section-portfolio .section-text {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
+
+.section-portfolio .text {
+  font-size: 18px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
   color: var(--primary-white-color);
 }
