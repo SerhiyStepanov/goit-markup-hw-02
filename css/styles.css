@@ -73,6 +73,10 @@ body {
   color: var(--acent-color);
 }
 
+.site-nav .link.current {
+  color: var(--acent-color);
+}
+
 /* контакты header */
 
 .contact .link {
