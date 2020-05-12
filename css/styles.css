@@ -214,6 +214,10 @@ body {
 
 /*  футер  логотип */
 
+footer {
+  background-color: var(--primary-footer-color);
+}
+
 .page-footer .logo {
   font-weight: 700;
   font-size: 22px;
